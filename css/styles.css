@@ -1,0 +1,447 @@
+@font-face {
+    font-family: "Medium Cond";
+    src: url("./../fonts/DINNextLTPro-MediumCond.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url("./../fonts/Montserrat-Bold_0.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url("./../fonts/Montserrat-Regular_0.ttf");
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    padding: 0%;
+}
+
+.header-grid p {
+    color: white;
+    font-size: 70px;
+    font-family: 'Medium Cond';
+}
+
+.header-grid div {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+}
+
+.header-grid img {
+    vertical-align: middle;
+    max-width: 90%;
+    height: auto;
+}
+
+#mystery-guest-text {
+    font-weight: 100;
+    font-size: 20px;
+    width: 100%;
+    text-align: right;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Medium Cond';
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.small-headers h1,
+.small-headers h2,
+.small-headers h3 {
+    font-family: 'Montserrat Regular';
+    padding: 0%;
+    margin: 0%;
+}
+
+.small-headers h1 {
+    font-size: 30px;
+}
+
+#tws-levels {
+    position: relative;
+    top: 5%;
+}
+
+body {
+    font-family: 'Montserrat Regular';
+    text-align: center;
+    padding: 0% 1%;
+    margin: 0% 10%;
+    background-color: lightgrey;
+}
+
+body div {
+    padding: 1% 0%;
+    margin: 0% 0%;
+}
+
+p {
+    font-family: 'Montserrat Regular';
+    font-weight: lighter;
+}
+
+#join-tw-container {
+    background-image:  url("../images/tw-2000-bg-1.jpg");
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+#tw-speech-background {
+    background-image: url("../images/tom-woods-speech-sans-bg.png");
+    background-position: 95% 20%;
+    background-repeat: no-repeat;
+}
+
+#join-tw {
+    margin: 0% 15%;
+}
+
+#join-tw p {
+    width: 50%;
+    font-size: 25px;
+    padding: 0%;
+    margin: 0%;
+    text-align: left;
+}
+
+#join-tw img {
+    width: 100%;
+    height: auto;
+}
+
+p#join-tw-para {
+    font-size: 20px;
+    font-weight: 100px;
+    margin: 2% 0%;
+}
+
+div#tws-logo {
+    width: 70%;
+    height: auto;
+    text-align: left;
+    vertical-align: center;
+}
+
+#join-tw h3 {
+    font-family: "Montserrat Regular";
+    font-size: 25px;
+}
+
+#fg-header {
+    text-align: left;
+}
+
+p#event-header {
+    color: white;
+}
+
+#event-location {
+    background-image: url("../images/hotel-front.JPG");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#event-interstitial {
+    background-color: white;
+    height: 60%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    font-size: 20px;
+    padding: 0%;
+}
+
+#event-interstitial p {
+    font-size: 75%;
+}
+
+#event-interstitial-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    padding: 0%;
+}
+
+#event-interstitial-grid img {
+    width: 90%;
+    height: auto;
+}
+
+#event-a {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    text-align: left;
+    padding: 5% 10%;
+    color: rgb(17, 28, 51);
+}
+
+#event-a h2 {
+    font-size: 28px;
+}
+
+#event-a h3 {
+    font-size: 18px;
+}
+
+#event-a p {
+    line-height: 1.1em;
+    font-family: "Montserrat Regular";
+    font-weight: lighter;
+}
+
+#event-b {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding: 5%;
+}
+
+#event-c {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 0% 5% 5% 5%;
+}
+
+#event-a form {
+    padding: 5%;
+}
+
+#register-grid {
+    display: grid;
+    width: 50%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    font-size: 15px;
+}
+
+#register-grid form input {
+    width: 100%;
+    font-size: 15px;
+}
+
+#register-grid p {
+    text-align: center;
+    padding: 2% 0%;
+    font-size: 20px;
+    width: 100%;
+}
+
+#reg-a {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+#reg-b {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#reg-c {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-weight: bold;
+}
+
+#smith-boldin-header div p {
+    color: black;
+}
+
+#smith-boldin-info-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    text-align: left;
+}
+
+#smith-boldin-info-grid div,
+#smith-boldin-info-grid p {
+    padding: 0% 5%;
+}
+
+#smith-boldin-info-grid div {
+    padding: 3% 5%;
+}
+
+#smith-boldin-info-grid h2 {
+    font-size: 40px;
+    padding-bottom: 2%;
+}
+
+#smith-boldin-info-grid h3 {
+    font-size: 25px;
+}
+
+#smith-boldin-info-grid p {
+    font-size: 25px;
+}
+
+#smith-boldin-info-grid img {
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#highlights-ep-1000 {
+    background-image: url("../images/starry-sky.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 40%;
+}
+
+#highlights-ep-1000 h1,
+#highlights-ep-1000 h2,
+#highlights-ep-1000 h3 {
+    text-align: center;
+    color: white;
+    margin: 1% 0%;
+}
+
+#highlights-ep-1000 h2 {
+    font-size: 25px;
+    font-family: 'Montserrat Regular';
+    font-weight: 100;
+}
+
+#dad-joke-off-header {
+    padding: 0%;
+}
+
+#daughters-roasting h2 {
+    color: black;
+}
+
+#jeff-deist {
+    background-image: url("../images/jeff-deist-speech.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    color: white;
+}
+
+#jeff-deist-info {
+    width: 30%;
+    margin-left: 20%;
+    padding: 15% 0%;
+    text-align: left;
+}
+
+#jeff-deist-info h1 {
+    font-family: 'Medium Cond';
+    font-size: 60px;
+}
+
+#jeff-deist-info p {
+    font-size: 30px;
+    padding: 0%;
+}
+
+#about-tw {
+    margin: 0% 10%;
+}
+
+#about-tw h1 {
+    margin: 2% 0%;
+}
+
+#about-tw-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#about-tw-text {
+    font-family: 'Medium Cond';
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 20px;
+}
+
+#special-reception {
+    background-image: url("../images/supp-list-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#special-reception-header div p {
+    color: black;
+}
+
+#special-reception-grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: 0% 20%;
+}
+
+#special-reception-grid p {
+    padding: 0% 10%;
+    font-size: 25px;
+    text-align: left;
+}
+
+#supp-link {
+    font-size: 25px;
+    font-style: bold;
+    color: blue;
+}
+
+#reserve-spot {
+    background-image: url("../images/tw-2000-bg-2.jpg");
+    color: white;
+    padding: 5%;
+}
+
+#reserve-spot h1 {
+    font-family: 'Medium Cond';
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 0%;
+}
+
+#admission {
+    margin: 1%;
+    font-family: 'Montserrat Regular';
+    text-align: center;
+    font-weight: 100;
+    padding: 1% 10%;
+}
+
+#footer {
+    background-color: rgb(13, 13, 73);
+    padding: 2% 0%;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+    border-right: solid 1px;
+    padding: 10px;
+}
+
+#footer a:last-child {
+    border: 0px;
+}
+
+form input {
+    height: 40px;
+    width: 250px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 2px darkred;
+    border-color: red;
+    border-radius: 5px;
+}
